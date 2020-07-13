@@ -1,0 +1,10 @@
+# https://help.github.com/en/actions/automating-your-workflow-with-github-actions/metadata-syntax-for-github-actions
+name: 'Build and deploy Segment Sloth Functions'
+description: 'Automatically deploy your functions from your Segment Sloth as a Github Action'
+author: 'Christy Haragan'
+runs:
+  using: 'node12'
+  main: 'out/index.js'
+branding:
+  color: 'green'
+  icon: 'command'

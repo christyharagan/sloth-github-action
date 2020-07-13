@@ -1,0 +1,14 @@
+{
+  "name": "sloth-github-action",
+  "version": "0.1.0",
+  "description": "Build and deploy your Segment Sloth Function as a github action",
+  "main": "out/main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "npm-install": "^1.4.1",
+    "segment-sloth": "^0.1.0"
+  }
+}
