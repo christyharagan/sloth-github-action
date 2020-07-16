@@ -19,18 +19,18 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const npm_install_1 = require("npm-install");
+// import {npmInstallAction} from 'npm-install'
 const segment_sloth_1 = require("segment-sloth");
 const core = __importStar(require("@actions/core"));
 let access_token = core.getInput('segment-access-token');
 let work_slug = core.getInput('segment-workspace-slug');
 let work_id = core.getInput('segment-workspace-id');
-npm_install_1.npmInstallAction().then(() => {
-    console.log('Ready to deploy function');
-    segment_sloth_1.deploy(false, access_token, work_slug, work_id).then(() => {
-        console.log('Function successfully deployed');
-    }).catch(e => {
-        console.error('Error deploying function:');
-        console.error(e);
-    });
+// npmInstallAction().then(() => {
+// console.log('Ready to deploy function')
+segment_sloth_1.deploy(false, access_token, work_slug, work_id).then(() => {
+    console.log('Function successfully deployed');
+}).catch(e => {
+    console.error('Error deploying function:');
+    console.error(e);
 });
+// })
