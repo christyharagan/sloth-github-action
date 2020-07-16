@@ -9,5 +9,8 @@
   "dependencies": {
     "@actions/core": "^1.2.4",
     "segment-sloth": "^0.1.0"
+  },
+  "release": {
+    "branches": ["master"]
   }
 }
