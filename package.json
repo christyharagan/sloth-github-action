@@ -8,7 +8,7 @@
   "license": "ISC",
   "dependencies": {
     "@actions/core": "^1.2.4",
-    "segment-sloth": "^0.1.0"
+    "segment-sloth": "^0.1.1"
   },
   "release": {
     "branches": ["master"]
