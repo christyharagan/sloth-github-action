@@ -1,6 +1,6 @@
 {
   "name": "sloth-github-action",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Build and deploy your Segment Sloth Function as a github action",
   "main": "out/index.js",
   "keywords": [],
