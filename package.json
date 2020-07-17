@@ -1,16 +1,18 @@
 {
   "name": "sloth-github-action",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "Build and deploy your Segment Sloth Function as a github action",
   "main": "out/index.js",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Christy Haragan (https://github.com/christyharagan/sloth-github-action)",
+  "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.2.4",
-    "segment-sloth": "^0.1.1"
+    "segment-sloth": "^1.0.0"
   },
   "release": {
-    "branches": ["master"]
+    "branches": [
+      "master"
+    ]
   }
 }
