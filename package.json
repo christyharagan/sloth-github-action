@@ -11,6 +11,8 @@
     "segment-sloth": "^0.1.1"
   },
   "release": {
-    "branches": ["master"]
+    "branches": [
+      "master"
+    ]
   }
 }
