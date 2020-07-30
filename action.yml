@@ -8,3 +8,13 @@ runs:
 branding:
   color: 'green'
   icon: 'command'
+inputs:
+  segment-access-token:
+    description: 'Workspace access token. Requires function admin privileges.'
+    required: false
+  segment-workspace-slug:
+    description: 'Workspace slug'
+    required: false
+  segment-workspace-id:
+    description: 'Workspace ID'
+    required: false
